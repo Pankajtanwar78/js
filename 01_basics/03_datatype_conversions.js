@@ -7,6 +7,9 @@ console.log(typeof true);       // boolean
 console.log(typeof null);       // object
 console.log(typeof undefined);  // undefined
 console.log(typeof NaN);        // number
+console.log(typeof {});         // object
+console.log(typeof []);         // object
+console.log(typeof(()=>{}));    // function object
 
 
 // convertion to number  => use Number to convert 
